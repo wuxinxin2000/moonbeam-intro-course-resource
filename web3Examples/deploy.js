@@ -15,8 +15,8 @@ const web3 = new Web3(providerRPC.development); //Change to correct network
 // The accounts info for Moonbeam development node can be found:
 // https://docs.moonbeam.network/cn/builders/get-started/networks/moonbeam-dev/#pre-funded-development-accounts
 const account_from = {
-   privateKey: '0x5fb92d6e98884f76de468fa3f6278f8807c48bebc13595d45af5bdc4da702133',  // 'YOUR-PRIVATE-KEY-HERE'
-   address: '0xf24FF3a9CF04c71Dbc94D0b566f7A27B94566cac',  // 'PUBLIC-ADDRESS-OF-PK-HERE'
+   privateKey: 'YOUR-PRIVATE-KEY-HERE',  // 
+   address: 'PUBLIC-ADDRESS-OF-PK-HERE',  // 
 };
 
 const bytecode = contractFile.evm.bytecode.object;

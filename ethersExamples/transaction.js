@@ -28,9 +28,9 @@ const providerRPC = {
 // The accounts info for Moonbeam development node can be found:
 // https://docs.moonbeam.network/cn/builders/get-started/networks/moonbeam-dev/#pre-funded-development-accounts
 const account_from = {
-   privateKey: '0x5fb92d6e98884f76de468fa3f6278f8807c48bebc13595d45af5bdc4da702133',  // 'YOUR-PRIVATE-KEY-HERE'
+   privateKey: 'YOUR-PRIVATE-KEY-HERE',  // 
 };
-const addressTo = '0x3Cd0A705a2DC65e5b1E1205896BaA2be8A07c6e0'; // 'Change addressTo'
+const addressTo = 'Change addressTo'; // 
 
  // Create wallet
  let wallet = new ethers.Wallet(account_from.privateKey, provider);

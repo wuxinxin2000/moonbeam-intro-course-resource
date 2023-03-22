@@ -23,9 +23,9 @@ const providerRPC = {
 
 // Variables
 const account_from = {
-   privateKey: '0x5fb92d6e98884f76de468fa3f6278f8807c48bebc13595d45af5bdc4da702133',  // 'YOUR-PRIVATE-KEY-HERE'
+   privateKey: 'YOUR-PRIVATE-KEY-HERE',  // 
 };
-const contractAddress = '0x598efcBD0B5b4Fd0142bEAae1a38f6Bd4d8a218d'; // 'CONTRACT-ADDRESS-HERE'
+const contractAddress = 'CONTRACT-ADDRESS-HERE'; // 
 const _value = 3;
 
 /*

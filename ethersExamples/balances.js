@@ -26,8 +26,8 @@ const providerRPC = {
  ); //Change to correct network
 
 // Variables
-const addressFrom = '0xf24FF3a9CF04c71Dbc94D0b566f7A27B94566cac'; // 'ADDRESS-FROM-HERE'
-const addressTo = '0x3Cd0A705a2DC65e5b1E1205896BaA2be8A07c6e0';  // 'ADDRESS-TO-HERE'
+const addressFrom = 'ADDRESS-FROM-HERE'; // 
+const addressTo = 'ADDRESS-TO-HERE';  // 
 
 /*
    -- Balance Call Function --

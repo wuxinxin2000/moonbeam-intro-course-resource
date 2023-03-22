@@ -12,7 +12,7 @@ const providerRPC = {
 const web3 = new Web3(providerRPC.development); //Change to correct network
 
 // Variables
-const contractAddress = '0x970951a12F975E6762482ACA81E57D5A2A4e73F4'; // 'CONTRACT-ADDRESS-HERE';
+const contractAddress = 'CONTRACT-ADDRESS-HERE'; //
 
 /*
    -- Call Function --

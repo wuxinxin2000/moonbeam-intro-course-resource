@@ -22,7 +22,7 @@ const providerRPC = {
  );
 
 // Variables
-const contractAddress = '0x598efcBD0B5b4Fd0142bEAae1a38f6Bd4d8a218d'; // 'CONTRACT-ADDRESS-HERE';
+const contractAddress = 'CONTRACT-ADDRESS-HERE'; // ;
 
 /*
    -- Call Function --

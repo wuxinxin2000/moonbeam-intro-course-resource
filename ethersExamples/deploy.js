@@ -26,7 +26,7 @@ const providerRPC = {
 // The accounts info for Moonbeam development node can be found:
 // https://docs.moonbeam.network/cn/builders/get-started/networks/moonbeam-dev/#pre-funded-development-accounts
 const account_from = {
-   privateKey: '0x5fb92d6e98884f76de468fa3f6278f8807c48bebc13595d45af5bdc4da702133',  // 'YOUR-PRIVATE-KEY-HERE'
+   privateKey: 'YOUR-PRIVATE-KEY-HERE',  // You can also put the private key in another file, export it and then import it here
 };
 
 const bytecode = contractFile.evm.bytecode.object;
