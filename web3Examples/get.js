@@ -1,5 +1,5 @@
 const Web3 = require('web3');
-const { abi } = require('./compile');
+const { contractFile } = require('./compile');
 
 /*
    -- Define Provider & Variables --
@@ -18,7 +18,7 @@ const contractAddress = 'CONTRACT-ADDRESS-HERE'; //
    -- Call Function --
 */
 // Create Contract Instance
-const incrementer = new web3.eth.Contract(abi, contractAddress);
+const incrementer = new web3.eth.Contract(contractFile.abi, contractAddress);
 
 const get = async () => {
    console.log(`Making a call to contract at address: ${contractAddress}`);

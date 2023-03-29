@@ -1,5 +1,5 @@
 const Web3 = require('web3');
-const { abi } = require('./compile');
+const { contractFile } = require('./compile');
 
 /*
    -- Define Provider & Variables --
@@ -22,7 +22,7 @@ const _value = 3;
    -- Send Function --
 */
 // Create Contract Instance
-const incrementer = new web3.eth.Contract(abi, contractAddress);
+const incrementer = new web3.eth.Contract(contractFile.abi, contractAddress);
 
 // Build Increment Tx
 const incrementTx = incrementer.methods.increment(_value);

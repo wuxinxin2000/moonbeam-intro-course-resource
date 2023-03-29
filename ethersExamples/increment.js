@@ -1,5 +1,5 @@
 const ethers = require('ethers');
-const { abi } = require('./compile');
+const { contractFile } = require('./compile');
 
 /*
    -- Define Provider & Variables --
@@ -35,7 +35,7 @@ const _value = 3;
 let wallet = new ethers.Wallet(account_from.privateKey, provider);
 
 // Create contract instance with signer
-const incrementer = new ethers.Contract(contractAddress, abi, wallet);
+const incrementer = new ethers.Contract(contractAddress, contractFile.abi, wallet);
 
 const increment = async () => {
    console.log(

@@ -1,5 +1,5 @@
 const ethers = require('ethers');
-const { abi } = require('./compile');
+const { contractFile } = require('./compile');
 
 /*
    -- Define Provider & Variables --
@@ -28,7 +28,7 @@ const contractAddress = 'CONTRACT-ADDRESS-HERE'; // ;
    -- Call Function --
 */
 // Create Contract Instance
-const incrementer = new ethers.Contract(contractAddress, abi, provider);
+const incrementer = new ethers.Contract(contractAddress, contractFile.abi, provider);
 
 const get = async () => {
    console.log(`Making a call to contract at address: ${contractAddress}`);
